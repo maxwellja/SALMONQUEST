@@ -5,8 +5,8 @@ I moved from Illinois to Oregon in the summer of 2022, and I was eager to catch 
 
 About when in the year should I go fishing in the Columbia River to have the highest historical probably of catching a salmon for dinner?
 
-To answer this question, I will systematically extract, process, and analyze csv data courtesy of Columbia Basin Research's Columbia River DART dashboard: https://www.cbr.washington.edu/dart/overview .
+To answer this question, I will systematically extract, process, and analyze csv data courtesy of Columbia Basin Research's Columbia River DART dashboard: https://www.cbr.washington.edu/dart/overview. The data counts adult salmon passages from each day in 2022. The data is collected at a variety of salmon ladders - a manmade salmon pathway from a portion of the river below a dam to the portion of the river above the dam - using cameras to count individual fish from the months March through November. During the winter months, salmon are not frequent enough to count.
 
-The data is adult salmon passage numbers from each day in 2022. The data is collected through visual confirmation of each salmonWith 2023 beginning, the best time to fish last year can allow me to project when the best time to fish this year will probably occur.
+I will quantify the date range in 2022 with the highest number of adult salmon passages at all the monitored dams along the Columbia river. By quantifying the best time to fish in 2022 I can project when the best time to fish in 2023 will likely occur.
 
 This project is broken up into four parts: Extraction, Cleaning, Analysis, and Presentation. I leverage the pandas library of python for the Extraction, Cleaning, and Analysis portions. I create a visualization with both Excel and Tableau to concisely display my findings and support my conclusion.
