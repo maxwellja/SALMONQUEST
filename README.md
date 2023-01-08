@@ -10,3 +10,6 @@ To answer this question, I will systematically extract, process, and analyze csv
 I will quantify the date range in 2022 with the highest number of adult salmon passages at all the monitored dams along the Columbia river. By quantifying the best time to fish in 2022 I can project when the best time to fish in 2023 will likely occur.
 
 This project is broken up into four parts: Extraction, Cleaning, Analysis, and Presentation. I leverage the pandas library of python for the Extraction, Cleaning, and Analysis portions. I create a visualization with both Excel and Tableau to concisely display my findings and support my conclusion.
+
+
+CBR Metadata and Glossery: https://www.cbr.washington.edu/dart/metadata/adult.
