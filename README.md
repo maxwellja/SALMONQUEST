@@ -7,6 +7,6 @@ About when in the year should I go fishing in the Columbia River to have the hig
 
 To answer this question, I will systematically extract, process, and analyze csv data courtesy of Columbia Basin Research's Columbia River DART dashboard: https://www.cbr.washington.edu/dart/overview .
 
-The data is salmon passage numbers from each day in 2022. With 2023 beginning, the best time to fish last year can allow me to project when the best time to fish this year will probably occur.
+The data is adult salmon passage numbers from each day in 2022. The data is collected through visual confirmation of each salmonWith 2023 beginning, the best time to fish last year can allow me to project when the best time to fish this year will probably occur.
 
 This project is broken up into four parts: Extraction, Cleaning, Analysis, and Presentation. I leverage the pandas library of python for the Extraction, Cleaning, and Analysis portions. I create a visualization with both Excel and Tableau to concisely display my findings and support my conclusion.
