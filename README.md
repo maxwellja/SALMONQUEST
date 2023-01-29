@@ -17,3 +17,8 @@ I create visualizations with both Excel and Tableau to concisely display my find
 
 
 'DART' Metadata and Glossery: https://www.cbr.washington.edu/dart/metadata/adult.
+
+
+
+
+# SCOPE OF WORK
