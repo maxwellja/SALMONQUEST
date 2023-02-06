@@ -1,23 +1,25 @@
 # SALMONQUEST
 
 
-I moved from Illinois to Oregon in the summer of 2022, and I was eager to catch salmon on all the ocean-feeding rivers that neighbor my new home. There's one problem, I don't know when salmon are running! In this project, I will answer the following question, and a more detailed variety of it: 
+I moved from Illinois to Oregon in the summer of 2022, and I was eager to catch salmon on all the ocean-feeding rivers that neighbor my new home. There's one problem, I don't know when salmon are running! In this project, I will answer the following question: 
 
-About when in the year should I fish the Columbia River to have the highest probably of catching a salmon for dinner?
+What weekend should someone choose to fish the Columbia River and have the highest probably of catching a salmon for dinner?
 
-Also,
-What region of the Columbia River should I fish, and when should I fish, to catch each of the three varieties of delicious salmon?
+To answer this question, I will systematically extract, process, and analyze csv data courtesy of Columbia Basin Research's Columbia River 'DART' database [https://www.cbr.washington.edu/dart/overview]. Cameras are used to count adult and junior salmonid passages at a variety of salmon ladders - a manmade, switchback-like pathway for salmonid fish to bypass a dam - along a river. There are 9 dams equiped with these cameras along the Columbia River, starting at the Bonneville dam, 130 miles upriver from the ocean. The 9 dams span over 300 miles from the Bonneville dam to the Wells dam in Central Washington.
 
-To answer these questions, I will systematically extract, process, and analyze csv data courtesy of Columbia Basin Research's Columbia River 'DART' dashboard: https://www.cbr.washington.edu/dart/overview. The data counts adult and junior salmonid passages from each day in 2022. The data is collected at a variety of salmon ladders - a manmade salmon pathway from a portion of the river below a dam to the portion of the river above the dam - using cameras to count individual fish. At all but one fish ladder, no data is collected from November to March. During the winter months, upstream salmonids are not frequent enough to count.
+According to the metadata ['DART' Metadata and Glossery: https://www.cbr.washington.edu/dart/metadata/adult], the cameras are used to count salmon passages between the months of April and November. Salmon swim upriver to spawn in the summer, so there is little utility in running and confirming passage counts during the winter.
 
-I will quantify the date range in 2022 with the highest number of adult salmon passages at all the monitored dams along the Columbia river. By quantifying the best time to fish in 2022 I can project when the best time to fish in 2023 will likely occur.
-
-This project is broken up into four parts: Extraction, Cleaning, Analysis, and Presentation. I leverage the pandas library of python for the Extraction, and both python and Sqlite for the Cleaning, and Analysis portions. 
-I create visualizations with both Excel and Tableau to concisely display my findings and support my conclusion.
+For each of the 9 dams, I will utilize daily counts from 2002 to 2022 - twenty years. I will average the counts for each year in order to conclude both the best single-day and three-day stretch to fish at each dam to fish in 2023.
 
 
-'DART' Metadata and Glossery: https://www.cbr.washington.edu/dart/metadata/adult.
+This project is broken up into four parts: Extraction, Cleaning, Analysis, and Presentation. I utilize Python and the pandas library for the first three portions of the project. I utilize Excel for the final part of the presentation.
 
+
+
+
+LINKS:
+'DART' Database: https://www.cbr.washington.edu/dart/overview
+'DART' Metadata and Glossery: https://www.cbr.washington.edu/dart/metadata/adult
 
 
 
