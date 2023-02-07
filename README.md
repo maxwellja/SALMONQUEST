@@ -9,10 +9,10 @@ To answer this question, I will systematically extract, process, and analyze csv
 
 According to the metadata ['DART' Metadata and Glossery: https://www.cbr.washington.edu/dart/metadata/adult], the cameras are used to count salmon passages between the months of April and November. Salmon swim upriver to spawn in the summer, so there is little utility in running and confirming passage counts during the winter.
 
-For each of the 9 dams, I will utilize daily counts from 2002 to 2022 - twenty years. I will average the counts for each year in order to conclude both the best single-day and three-day stretch to fish at each dam to fish in 2023.
+For each of the 9 dams, I will utilize daily counts from 2006 to 2022. The Wanapum dam only has data recorded back into 2006. I will average the counts for each year in order to conclude both the best single-day and three-day stretch to fish at each dam to fish in 2023.
 
 
-This project is broken up into four parts: Extraction, Cleaning, Analysis, and Presentation. I utilize Python and the pandas library for the first three portions of the project. I utilize Excel for the final part of the presentation.
+This project is broken up into four parts: Importing, Cleaning, Analysis, and Presentation. I utilize Python and the pandas library for the first three portions of the project. I utilize Excel for the final part of the presentation.
 
 
 
