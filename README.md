@@ -17,10 +17,5 @@ This project is broken up into four parts: Importing, Cleaning, Analysis, and Pr
 
 
 
-LINKS:
-'DART' Database: https://www.cbr.washington.edu/dart/overview
-'DART' Metadata and Glossery: https://www.cbr.washington.edu/dart/metadata/adult
-
-
 
 # SCOPE OF WORK
